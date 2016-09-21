@@ -1,2 +1,2 @@
-# lacona-notes
-Lacona Addon for opening and creating Apple Notes (using Notes.app)
+# lacona-chrome-bookmarks
+Lacona Addon that adds support for searching Chrome bookmarks
