@@ -95,7 +95,7 @@ const Note = {
 const Title = {
   describe ({props}) {
     return (
-      <placeholder argument='note title'>
+      <placeholder argument='note'>
         <String
           splitOn={props.splitOn}
           annotation={{type: 'icon', path: '/Applications/Notes.app'}}

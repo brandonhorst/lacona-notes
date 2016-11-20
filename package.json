@@ -5,7 +5,13 @@
   "main": "lib/index.js",
   "lacona": {
     "title": "Notes",
-    "description": "Allow Lacona to create and add to Apple Notes, using Notes.app."
+    "description": "Allow Lacona to create and add to Apple Notes, using Notes.app.",
+    "iconURL": "https://raw.githubusercontent.com/brandonhorst/lacona-notes/master/icon.png",
+    "examples": [
+      "create [![](https://raw.githubusercontent.com/brandonhorst/lacona-notes/master/icon.png)Shopping List](note) in [Personal](note folder)",
+      "add [Eggs](line) to [![](https://raw.githubusercontent.com/brandonhorst/lacona-notes/master/icon.png)Shopping List](note)"
+    ],
+    "engine": ">=1.1.0"
   },
   "scripts": {
     "build": "babel src --out-dir lib",
